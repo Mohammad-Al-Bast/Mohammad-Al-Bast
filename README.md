@@ -2,9 +2,15 @@
   <img src="assets/project-graph.svg" width="100%" alt="Git graph of Mohammad Al Bast's projects, split into Webflow and full-stack branches that merge into mohammadalbast.com">
 </a>
 
-# 💫 About Me:
-Skilled in Webflow development (custom code, GSAP animations, Finsweet attributes), frontend (HTML, CSS, JS, React + TypeScript, Tailwind), and backend (PHP, MySQL, Laravel ) with experience in responsive design, UI/UX, and Git/GitHub collaboration.
+# 💫 About Me
+### Full-stack developer & Webflow specialist — I build sites that look sharp and backends that hold up.
 
+- 🌐 **Webflow, done properly:** Client-First builds, CMS architecture, GSAP interactions and Finsweet — including large auto-parts catalogs.
+- ⚙️ **Full-stack apps:** Next.js + shadcn/ui on the front, NestJS / Laravel + PostgreSQL on the back, with RBAC, MFA and clean REST APIs.
+- 🤖 **AI-powered workflow:** I ship faster with Claude Code, custom agent skills and MCP integrations (Webflow, Figma, Notion).
+- 📍 Based in Lebanon · freelancing since 2021 · 5+ years building for the web.
+
+📫 **Got a project?** [Book an intro call](https://cal.com/mohammad-al-bast/intro) or see my work at [mohammadalbast.com](https://mohammadalbast.com).
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammad-al-bast) [![Portfolio](https://img.shields.io/badge/Portfolio-mohammadalbast.com-000000?logo=googlechrome&logoColor=white)](https://mohammadalbast.com)
