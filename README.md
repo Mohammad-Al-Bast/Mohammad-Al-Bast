@@ -1,3 +1,7 @@
+<a href="https://mohammadalbast.com">
+  <img src="assets/project-graph.svg" width="100%" alt="Git graph of Mohammad Al Bast's projects, split into Webflow and full-stack branches that merge into mohammadalbast.com">
+</a>
+
 # 💫 About Me:
 Skilled in Webflow development (custom code, GSAP animations, Finsweet attributes), frontend (HTML, CSS, JS, React + TypeScript, Tailwind), and backend (PHP, MySQL, Laravel ) with experience in responsive design, UI/UX, and Git/GitHub collaboration.
 
