@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 250" width="860" height="250" role="img" aria-label="Git graph of Mohammad Al Bast's projects: Lebanese Europe Auto Parts, Brain Learning Center, EDUadmin, Reactive Store">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 250" width="860" height="250" role="img" aria-label="Git graph of Mohammad Al Bast's projects: Lebanese Europe Auto Parts, Brain Learning Center, EDUadmin, Reactive Store, A&amp;K Autoteile, Deutschöl, General Auto Parts, Samco Auto Pièces, Euro Star Auto-Pièces, Korri Star">
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
 path{fill:none;stroke-width:2.5;stroke-linecap:round}
@@ -22,17 +22,21 @@ path{fill:none;stroke-width:2.5;stroke-linecap:round}
 <text class="fade" style="animation-delay:0.3s" x="24" y="94" fill="#85fd9c">main</text>
 <path class="draw" style="animation-delay:0.55s" d="M180 70 C225 70 225 130 270 130 H650 C695 130 695 70 740 70" stroke="#85b7eb"/>
 <text class="fade" style="animation-delay:0.55s" x="24" y="134" fill="#85b7eb">webflow</text>
-<circle class="pop" style="animation-delay:0.8s" cx="460" cy="130" r="6" fill="#0b0b0b" stroke="#85b7eb" stroke-width="2.5"/>
-<text class="fade" style="animation-delay:0.8s" x="460" y="116" fill="#d3d1c7" text-anchor="middle">Lebanese Europe Auto Parts</text>
-<path class="draw" style="animation-delay:1.05s" d="M150 70 C195 70 195 195 240 195 H680 C725 195 725 70 770 70" stroke="#ed93b1"/>
-<text class="fade" style="animation-delay:1.05s" x="24" y="199" fill="#ed93b1">full-stack</text>
-<circle class="pop" style="animation-delay:1.3s" cx="255" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
-<text class="fade" style="animation-delay:1.3s" x="247" y="181" fill="#d3d1c7" text-anchor="start">Brain Learning Center</text>
-<circle class="pop" style="animation-delay:1.55s" cx="460" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
-<text class="fade" style="animation-delay:1.55s" x="460" y="219" fill="#d3d1c7" text-anchor="middle">EDUadmin</text>
-<circle class="pop" style="animation-delay:1.8s" cx="665" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
-<text class="fade" style="animation-delay:1.8s" x="673" y="181" fill="#d3d1c7" text-anchor="end">Reactive Store</text>
-<circle class="pop" style="animation-delay:2.05s" cx="820" cy="70" r="7" fill="#85fd9c"/>
-<circle class="pulse" style="animation-delay:2.4499999999999997s" cx="820" cy="70" r="7" fill="none" stroke="#85fd9c"/>
-<text class="fade" style="animation-delay:2.05s" x="820" y="52" fill="#85fd9c" text-anchor="end">HEAD → mohammadalbast.com</text>
+<circle class="pop" style="animation-delay:0.8s" cx="285" cy="130" r="6" fill="#0b0b0b" stroke="#85b7eb" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:0.8s" x="277" y="116" fill="#d3d1c7" text-anchor="start">Lebanese Europe Aut…</text>
+<circle class="pop" style="animation-delay:1.05s" cx="460" cy="130" r="6" fill="#0b0b0b" stroke="#85b7eb" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:1.05s" x="460" y="154" fill="#d3d1c7" text-anchor="middle">A&amp;K Autoteile</text>
+<circle class="pop" style="animation-delay:1.3s" cx="635" cy="130" r="6" fill="#0b0b0b" stroke="#85b7eb" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:1.3s" x="643" y="116" fill="#d3d1c7" text-anchor="end">Deutschöl</text>
+<path class="draw" style="animation-delay:1.55s" d="M150 70 C195 70 195 195 240 195 H680 C725 195 725 70 770 70" stroke="#ed93b1"/>
+<text class="fade" style="animation-delay:1.55s" x="24" y="199" fill="#ed93b1">full-stack</text>
+<circle class="pop" style="animation-delay:1.8s" cx="255" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:1.8s" x="247" y="181" fill="#d3d1c7" text-anchor="start">Brain Learning Center</text>
+<circle class="pop" style="animation-delay:2.05s" cx="460" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:2.05s" x="460" y="219" fill="#d3d1c7" text-anchor="middle">EDUadmin</text>
+<circle class="pop" style="animation-delay:2.3s" cx="665" cy="195" r="6" fill="#0b0b0b" stroke="#ed93b1" stroke-width="2.5"/>
+<text class="fade" style="animation-delay:2.3s" x="673" y="181" fill="#d3d1c7" text-anchor="end">Reactive Store</text>
+<circle class="pop" style="animation-delay:2.55s" cx="820" cy="70" r="7" fill="#85fd9c"/>
+<circle class="pulse" style="animation-delay:2.9499999999999997s" cx="820" cy="70" r="7" fill="none" stroke="#85fd9c"/>
+<text class="fade" style="animation-delay:2.55s" x="820" y="52" fill="#85fd9c" text-anchor="end">HEAD → mohammadalbast.com</text>
 </svg>
