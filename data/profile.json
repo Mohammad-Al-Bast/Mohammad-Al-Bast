@@ -1,0 +1,133 @@
+{
+  "name": "Mohammad Al Bast",
+  "location": "Zahlé, Lebanon",
+  "eyebrow": "Freelance Webflow Developer & Full-Stack Engineer · Lebanon",
+  "headline": [
+    [
+      {
+        "text": "Webflow sites "
+      },
+      {
+        "text": "your team can run.",
+        "mint": true
+      }
+    ],
+    [
+      {
+        "text": "Web apps that hold up."
+      }
+    ]
+  ],
+  "intro": "Building for businesses and agencies across the Gulf, Europe and beyond, in TypeScript, React, Next.js, Node.js, NestJS and PostgreSQL, plus Webflow sites your team can actually edit.",
+  "availability": "Open to freelance, agency and full-time roles · replies within one working day",
+  "services": [
+    {
+      "number": "01",
+      "tag": "Webflow",
+      "title": [
+        [
+          {
+            "text": "End-to-End "
+          },
+          {
+            "text": "Webflow",
+            "mint": true
+          }
+        ],
+        [
+          {
+            "text": "Implementation"
+          }
+        ]
+      ],
+      "description": "Client-First builds with structured CMS collections, interactions and custom code your team can edit without breaking the layout."
+    },
+    {
+      "number": "02",
+      "tag": "Full-Stack",
+      "title": [
+        [
+          {
+            "text": "Web Application",
+            "mint": true
+          }
+        ],
+        [
+          {
+            "text": "Development"
+          }
+        ]
+      ],
+      "description": "React or Next.js on the front, NestJS or Express APIs behind them and PostgreSQL underneath, with auth and role-based access."
+    },
+    {
+      "number": "03",
+      "tag": "CMS",
+      "title": [
+        [
+          {
+            "text": "Scalable "
+          },
+          {
+            "text": "CMS &",
+            "mint": true
+          }
+        ],
+        [
+          {
+            "text": "Product Catalogs",
+            "mint": true
+          }
+        ]
+      ],
+      "description": "Catalog sites with thousands of products, structured collections and page templates that stay fast and easy to update."
+    }
+  ],
+  "tools": [
+    "Tailwind CSS",
+    "shadcn/ui",
+    "TanStack Query",
+    "React Hook Form",
+    "Zod",
+    "Express.js",
+    "Prisma",
+    "MySQL",
+    "MongoDB",
+    "Swagger / OpenAPI",
+    "JWT, MFA & RBAC",
+    "Client-First",
+    "GSAP",
+    "Finsweet",
+    "Claude Code",
+    "MCP integrations",
+    "Figma",
+    "Git & GitHub"
+  ],
+  "contact": {
+    "title": "Build something that matters.",
+    "intro": "Tell me about your project. A few lines are enough, and I reply within one working day."
+  },
+  "links": [
+    {
+      "id": "work",
+      "label": "View my work",
+      "href": "https://mohammadalbast.com/projects",
+      "primary": true
+    },
+    {
+      "id": "call",
+      "label": "Book a 20-min call",
+      "href": "https://cal.com/mohammad-al-bast/intro"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/mohammad-al-bast"
+    },
+    {
+      "id": "email",
+      "label": "Email me",
+      "href": "mailto:contact@mohammadalbast.com"
+    }
+  ]
+}

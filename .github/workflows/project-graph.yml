@@ -8,8 +8,8 @@ on:
     types: [projects-updated]
   push:
     paths:
-      - 'scripts/build-graph.mjs'
-      - 'data/projects.json'
+      - 'scripts/**'
+      - 'data/**'
 
 permissions:
   contents: write
@@ -29,8 +29,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build graph from published projects
-        run: node scripts/build-graph.mjs
+      - name: Build profile sections and the graph from published projects
+        run: |
+          node scripts/build-profile.mjs
+          node scripts/build-graph.mjs
 
       # GitHub disables scheduled workflows after 60 days without repo activity.
       # Re-enabling it on every scheduled run keeps it alive even when projects don't change.
@@ -42,12 +44,12 @@ jobs:
 
       - name: Commit if the graph changed
         run: |
-          if git diff --quiet -- assets/project-graph.svg; then
-            echo "No change in published projects."
+          if git diff --quiet -- assets/; then
+            echo "No change in the profile."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/project-graph.svg
-          git commit -m "chore: update project graph from mohammadalbast.com"
+          git add assets/
+          git commit -m "chore: update profile from mohammadalbast.com"
           git push

@@ -4,19 +4,20 @@
 // Node 20+, no dependencies.
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
+import { T, W as PAGE_W, svg, panel, codeHeading } from './lib/svg.mjs'
 
 const SITE = 'https://mohammadalbast.com'
 const API = `${SITE}/api/projects?where[_status][equals]=published&sort=order&depth=0&limit=12`
 const MAX_PER_BRANCH = 3
 
 const C = {
-  bg: '#0b0b0b',
-  border: '#2c2c2a',
-  dim: '#5f5e5a',
-  text: '#d3d1c7',
-  main: '#85fd9c',
-  webflow: '#85b7eb',
-  full: '#ed93b1',
+  bg: T.inset,
+  border: T.border,
+  dim: '#6b6b6b',
+  text: T.text,
+  main: T.mint,
+  webflow: T.webflow,
+  full: T.fullstack,
 }
 
 async function loadProjects() {
@@ -37,17 +38,21 @@ async function loadProjects() {
 }
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
-const clip = (s, n = 24) => (s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s)
+const clip = (s, n = 24) => {
+  if (s.length <= n) return s
+  const cut = s.slice(0, n).lastIndexOf(' ')
+  return cut > n / 2 ? s.slice(0, cut) : s.slice(0, n - 1).trimEnd() + '…'
+}
 
 function render(projects) {
   const web = projects.filter((p) => p.category === 'Webflow').slice(0, MAX_PER_BRANCH)
   const full = projects.filter((p) => p.category !== 'Webflow').slice(0, MAX_PER_BRANCH)
 
   const W = 860
-  const H = 250
-  const yMain = 70
-  const yWeb = 130
-  const yFull = 195
+  const H = 268
+  const yMain = 88
+  const yWeb = 150
+  const yFull = 218
   const xStart = 40
   const xEnd = 820
   const labelX = 24
@@ -98,27 +103,29 @@ function render(projects) {
   parts.push(`<circle class="pulse" style="animation-delay:${delay + 0.4}s" cx="${xEnd}" cy="${yMain}" r="7" fill="none" stroke="${C.main}"/>`)
   parts.push(`<text class="fade" style="animation-delay:${delay}s" x="${xEnd}" y="${yMain - 18}" fill="${C.main}" text-anchor="end">HEAD → mohammadalbast.com</text>`)
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Git graph of Mohammad Al Bast's projects: ${esc(projects.map((p) => p.name).join(', '))}">
-<style>
-text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
-path{fill:none;stroke-width:2.5;stroke-linecap:round}
-.draw{stroke-dasharray:1600;stroke-dashoffset:0;animation:draw 1.4s ease-out both}
-.pop{transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out both}
-.fade{animation:fade .5s ease-out both}
-.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite;opacity:0}
-@keyframes draw{from{stroke-dashoffset:1600}}
-@keyframes pop{from{transform:scale(0)}}
-@keyframes fade{from{opacity:0}}
-@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
-@media (prefers-reduced-motion:reduce){.draw,.pop,.fade,.pulse{animation:none}}
-</style>
+  // the window keeps its own 860-wide coordinates and is scaled into the page panel
+  const PH = 372
+  const scale = 780 / W
+  const body = `${panel(PH, PAGE_W)}
+${codeHeading('Projects', 40, 70)}
+<text class="mono fade" style="animation-delay:.5s" x="820" y="70" font-size="12" fill="${T.textMuted}" text-anchor="end">synced from mohammadalbast.com</text>
+<g transform="translate(40 96) scale(${scale.toFixed(4)})">
+<g class="mono graph">
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="${C.bg}" stroke="${C.border}"/>
-<circle cx="24" cy="22" r="5" fill="#444441"/><circle cx="42" cy="22" r="5" fill="#444441"/><circle cx="60" cy="22" r="5" fill="${C.main}" opacity=".8"/>
+<circle cx="24" cy="22" r="5" fill="#444"/><circle cx="42" cy="22" r="5" fill="#444"/><circle cx="60" cy="22" r="5" fill="${C.main}" opacity=".8"/>
 <text x="80" y="26" fill="${C.dim}" font-size="12">git log --graph --all</text>
 <line x1="0" y1="42" x2="${W}" y2="42" stroke="${C.border}"/>
 ${parts.join('\n')}
-</svg>
-`
+</g>
+</g>`
+  return svg({
+    width: PAGE_W,
+    height: PH,
+    label: `Git graph of Mohammad Al Bast's projects: ${projects.map((p) => p.name).join(', ')}`,
+    fonts: { sans: true, mono: true },
+    css: '.graph text{font-size:13px}.graph path{fill:none;stroke-width:2.5;stroke-linecap:round}',
+    body,
+  })
 }
 
 const projects = await loadProjects()

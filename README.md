@@ -1,21 +1,33 @@
+<!-- Built by scripts/build-profile.mjs (copy in data/profile.json) and scripts/build-graph.mjs (projects from mohammadalbast.com). -->
+
 <a href="https://mohammadalbast.com">
+  <img src="assets/hero.svg" width="100%" alt="Mohammad Al Bast, freelance Webflow developer and full-stack engineer in Lebanon. Webflow sites your team can run. Web apps that hold up.">
+</a>
+
+<p align="center">
+  <a href="https://mohammadalbast.com/projects"><img src="assets/link-work.svg" height="48" alt="View my work"></a>
+  <a href="https://cal.com/mohammad-al-bast/intro"><img src="assets/link-call.svg" height="48" alt="Book a 20-min call"></a>
+  <a href="https://www.linkedin.com/in/mohammad-al-bast"><img src="assets/link-linkedin.svg" height="48" alt="LinkedIn"></a>
+  <a href="mailto:contact@mohammadalbast.com"><img src="assets/link-email.svg" height="48" alt="Email me"></a>
+</p>
+
+<a href="https://mohammadalbast.com/#services">
+  <img src="assets/services.svg" width="100%" alt="What I build: end-to-end Webflow implementation, web application development, and scalable CMS and product catalogs.">
+</a>
+
+<a href="https://mohammadalbast.com/#expertise">
+  <img src="assets/stack.svg" width="100%" alt="Stack: TypeScript, React, Next.js, Node.js, NestJS, PostgreSQL, Webflow, Laravel, plus Tailwind CSS, shadcn/ui, TanStack Query, Prisma, GSAP, Finsweet, Claude Code and more.">
+</a>
+
+<a href="https://mohammadalbast.com/projects">
   <img src="assets/project-graph.svg" width="100%" alt="Git graph of Mohammad Al Bast's projects, split into Webflow and full-stack branches that merge into mohammadalbast.com">
 </a>
 
-# 💫 About Me
-### Full-stack developer & Webflow specialist — I build sites that look sharp and backends that hold up.
+<a href="https://cal.com/mohammad-al-bast/intro">
+  <img src="assets/contact.svg" width="100%" alt="Build something that matters. Tell me about your project; I reply within one working day.">
+</a>
 
-- 🌐 **Webflow, done properly:** Client-First builds, CMS architecture, GSAP interactions and Finsweet — including large auto-parts catalogs.
-- ⚙️ **Full-stack apps:** Next.js + shadcn/ui on the front, NestJS / Laravel + PostgreSQL on the back, with RBAC, MFA and clean REST APIs.
-- 🤖 **AI-powered workflow:** I ship faster with Claude Code, custom agent skills and MCP integrations (Webflow, Figma, Notion).
-- 📍 Based in Lebanon · freelancing since 2021 · 5+ years building for the web.
-
-📫 **Got a project?** [Book an intro call](https://cal.com/mohammad-al-bast/intro) or see my work at [mohammadalbast.com](https://mohammadalbast.com).
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammad-al-bast) [![Portfolio](https://img.shields.io/badge/Portfolio-mohammadalbast.com-000000?logo=googlechrome&logoColor=white)](https://mohammadalbast.com)
-
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-%23000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack%20Query-%23FF4154.svg?style=for-the-badge&logo=reactquery&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Zod](https://img.shields.io/badge/zod-%233068B7.svg?style=for-the-badge&logo=zod&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Webflow](https://img.shields.io/badge/webflow-%23146EF5.svg?style=for-the-badge&logo=webflow&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-%2388CE02.svg?style=for-the-badge&logo=greensock&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude%20Code-%23D97757.svg?style=for-the-badge&logo=claude&logoColor=white)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <a href="https://cal.com/mohammad-al-bast/intro"><img src="assets/link-call.svg" height="48" alt="Book a 20-min call"></a>
+  <a href="mailto:contact@mohammadalbast.com"><img src="assets/link-email.svg" height="48" alt="Email me"></a>
+</p>
